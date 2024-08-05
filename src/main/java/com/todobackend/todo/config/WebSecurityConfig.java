@@ -28,7 +28,7 @@ public class WebSecurityConfig {
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(
-                Arrays.asList("http://localhost:3000", "https://www.insert.o-r.kr"));
+                Arrays.asList("http://localhost:3000", "https://www.insert.o-r.kr", "TodoApplication00-backend-env.eba-gg6qx6qf.ap-southeast-2.elasticbeanstalk.com "));
         configuration.setAllowedMethods(
                 Arrays.asList("GET","POST","PUT","PATCH","DELETE","OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("*"));
